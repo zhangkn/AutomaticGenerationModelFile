@@ -3,7 +3,18 @@
 //  YBModelFileDemo
 //
 //
+/**
+ 省去了复制粘贴的环节
+ 
+ 
+ iOS 效率工具【根据 JSON 自动生成 Model 文件（数据模型）】一句代码自动生成 Model 文件，拖入工程既能使用。 支持 YYModel / MJExtension 的自动映射. 灵活拓展和定制（名字、头文件注解、代码处理器、Code 格式处理器）。省去了复制粘贴的环节
+ 
+ 
+ id可以做属性呀。Mac上其实有JSONExport了，只是我这个不用复制粘贴更偷懒而已。
 
+ ESJsonFormatForMac
+ https://github.com/czhen09/ESJsonFormatForMac
+ */
 #import <Foundation/Foundation.h>
 #import "YBMFConfig.h"
 
