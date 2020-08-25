@@ -1,10 +1,6 @@
 //
 //  YBMFFileNoteHandler.m
 //  YBModelFileDemo
-//
-//  Created by 杨波 on 2019/3/19.
-//  Copyright © 2019 杨波. All rights reserved.
-//
 
 #import "YBMFFileNoteHandler.h"
 

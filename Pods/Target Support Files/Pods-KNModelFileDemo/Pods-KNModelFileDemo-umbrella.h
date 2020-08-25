@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_YBModelFileDemoVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_YBModelFileDemoVersionString[];
+FOUNDATION_EXPORT double Pods_KNModelFileDemoVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_KNModelFileDemoVersionString[];
 

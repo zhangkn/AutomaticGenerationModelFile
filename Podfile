@@ -1,5 +1,5 @@
 platform:ios, '8.0'
-target ‘YBModelFileDemo’ do
+target ‘KNModelFileDemo’ do
 use_frameworks!
 
 pod 'YYModel'

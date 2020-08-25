@@ -25,7 +25,7 @@
 		23EB9F2A223F7D3900EE40FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23EB9F28223F7D3900EE40FE /* LaunchScreen.storyboard */; };
 		23EB9F2D223F7D3900EE40FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23EB9F2C223F7D3900EE40FE /* main.m */; };
 		23EB9F36223F7DC500EE40FE /* YBModelFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 23EB9F35223F7DC500EE40FE /* YBModelFile.m */; };
-		2C4581067DFB62CE02313E66 /* Pods_YBModelFileDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6073E7F20FCB17881827D901 /* Pods_YBModelFileDemo.framework */; };
+		4F2C41C3F54E9968E0CB5ABD /* Pods_KNModelFileDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A0AC4F40E853196F9DBF2E3 /* Pods_KNModelFileDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,7 +51,7 @@
 		23949BDD2271C23300A65340 /* WBTrendsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBTrendsModel.m; sourceTree = "<group>"; };
 		23AB8ADA223FD8F800C5849D /* YBMFNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YBMFNode.h; sourceTree = "<group>"; };
 		23AB8ADB223FD8F800C5849D /* YBMFNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YBMFNode.m; sourceTree = "<group>"; };
-		23EB9F1A223F7D3800EE40FE /* YBModelFileDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YBModelFileDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23EB9F1A223F7D3800EE40FE /* KNModelFileDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KNModelFileDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23EB9F1D223F7D3800EE40FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		23EB9F1E223F7D3800EE40FE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		23EB9F20223F7D3800EE40FE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -63,7 +63,9 @@
 		23EB9F2C223F7D3900EE40FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		23EB9F34223F7DC500EE40FE /* YBModelFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YBModelFile.h; sourceTree = "<group>"; };
 		23EB9F35223F7DC500EE40FE /* YBModelFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YBModelFile.m; sourceTree = "<group>"; };
-		6073E7F20FCB17881827D901 /* Pods_YBModelFileDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YBModelFileDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A0AC4F40E853196F9DBF2E3 /* Pods_KNModelFileDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KNModelFileDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EB78F4BC4D2B298D129874E /* Pods-KNModelFileDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KNModelFileDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KNModelFileDemo/Pods-KNModelFileDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		A26D60AFAA9CAA798C91745E /* Pods-KNModelFileDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KNModelFileDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-KNModelFileDemo/Pods-KNModelFileDemo.release.xcconfig"; sourceTree = "<group>"; };
 		EA5DD98DF919720D45DE16D7 /* Pods-YBModelFileDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YBModelFileDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-YBModelFileDemo/Pods-YBModelFileDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C4581067DFB62CE02313E66 /* Pods_YBModelFileDemo.framework in Frameworks */,
+				4F2C41C3F54E9968E0CB5ABD /* Pods_KNModelFileDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,7 +146,7 @@
 		23EB9F11223F7D3800EE40FE = {
 			isa = PBXGroup;
 			children = (
-				23EB9F1C223F7D3800EE40FE /* YBModelFileDemo */,
+				23EB9F1C223F7D3800EE40FE /* ModelFile */,
 				23EB9F1B223F7D3800EE40FE /* Products */,
 				B76A9D9A18496D1262A7E989 /* Pods */,
 				3A354F3BD2AEE8A9B3A3B133 /* Frameworks */,
@@ -154,12 +156,12 @@
 		23EB9F1B223F7D3800EE40FE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				23EB9F1A223F7D3800EE40FE /* YBModelFileDemo.app */,
+				23EB9F1A223F7D3800EE40FE /* KNModelFileDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		23EB9F1C223F7D3800EE40FE /* YBModelFileDemo */ = {
+		23EB9F1C223F7D3800EE40FE /* ModelFile */ = {
 			isa = PBXGroup;
 			children = (
 				04AD975B24F507D2008D57F3 /* json */,
@@ -175,7 +177,7 @@
 				23EB9F2B223F7D3900EE40FE /* Info.plist */,
 				23EB9F2C223F7D3900EE40FE /* main.m */,
 			);
-			path = YBModelFileDemo;
+			path = ModelFile;
 			sourceTree = "<group>";
 		};
 		23EB9F33223F7DBC00EE40FE /* YBModelFile */ = {
@@ -195,7 +197,7 @@
 		3A354F3BD2AEE8A9B3A3B133 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6073E7F20FCB17881827D901 /* Pods_YBModelFileDemo.framework */,
+				5A0AC4F40E853196F9DBF2E3 /* Pods_KNModelFileDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -205,6 +207,8 @@
 			children = (
 				22BB225E8CD133FFE509711D /* Pods-YBModelFileDemo.debug.xcconfig */,
 				EA5DD98DF919720D45DE16D7 /* Pods-YBModelFileDemo.release.xcconfig */,
+				8EB78F4BC4D2B298D129874E /* Pods-KNModelFileDemo.debug.xcconfig */,
+				A26D60AFAA9CAA798C91745E /* Pods-KNModelFileDemo.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -212,9 +216,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		23EB9F19223F7D3800EE40FE /* YBModelFileDemo */ = {
+		23EB9F19223F7D3800EE40FE /* KNModelFileDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 23EB9F30223F7D3900EE40FE /* Build configuration list for PBXNativeTarget "YBModelFileDemo" */;
+			buildConfigurationList = 23EB9F30223F7D3900EE40FE /* Build configuration list for PBXNativeTarget "KNModelFileDemo" */;
 			buildPhases = (
 				313F9B1F8044F37C7FB4C585 /* [CP] Check Pods Manifest.lock */,
 				23EB9F16223F7D3800EE40FE /* Sources */,
@@ -226,9 +230,9 @@
 			);
 			dependencies = (
 			);
-			name = YBModelFileDemo;
+			name = KNModelFileDemo;
 			productName = YBModelFileDemo;
-			productReference = 23EB9F1A223F7D3800EE40FE /* YBModelFileDemo.app */;
+			productReference = 23EB9F1A223F7D3800EE40FE /* KNModelFileDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -245,7 +249,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 23EB9F15223F7D3800EE40FE /* Build configuration list for PBXProject "ModelFile" */;
+			buildConfigurationList = 23EB9F15223F7D3800EE40FE /* Build configuration list for PBXProject "KNModelFile" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -258,7 +262,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				23EB9F19223F7D3800EE40FE /* YBModelFileDemo */,
+				23EB9F19223F7D3800EE40FE /* KNModelFileDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -290,7 +294,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-YBModelFileDemo-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-KNModelFileDemo-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -302,19 +306,16 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-YBModelFileDemo/Pods-YBModelFileDemo-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
-				"${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KNModelFileDemo/Pods-KNModelFileDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYModel.framework",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KNModelFileDemo/Pods-KNModelFileDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YBModelFileDemo/Pods-YBModelFileDemo-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KNModelFileDemo/Pods-KNModelFileDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -476,19 +477,19 @@
 		};
 		23EB9F31223F7D3900EE40FE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 22BB225E8CD133FFE509711D /* Pods-YBModelFileDemo.debug.xcconfig */;
+			baseConfigurationReference = 8EB78F4BC4D2B298D129874E /* Pods-KNModelFileDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UU8H9EQ986;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/YBModelFileDemo/PrefixHeader.pch";
-				INFOPLIST_FILE = YBModelFileDemo/Info.plist;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ModelFile/PrefixHeader.pch";
+				INFOPLIST_FILE = ModelFile/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = yangbo.YBModelFileDemo1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ModelFileDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -496,19 +497,19 @@
 		};
 		23EB9F32223F7D3900EE40FE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EA5DD98DF919720D45DE16D7 /* Pods-YBModelFileDemo.release.xcconfig */;
+			baseConfigurationReference = A26D60AFAA9CAA798C91745E /* Pods-KNModelFileDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UU8H9EQ986;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/YBModelFileDemo/PrefixHeader.pch";
-				INFOPLIST_FILE = YBModelFileDemo/Info.plist;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ModelFile/PrefixHeader.pch";
+				INFOPLIST_FILE = ModelFile/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = yangbo.YBModelFileDemo1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ModelFileDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -517,7 +518,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		23EB9F15223F7D3800EE40FE /* Build configuration list for PBXProject "ModelFile" */ = {
+		23EB9F15223F7D3800EE40FE /* Build configuration list for PBXProject "KNModelFile" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				23EB9F2E223F7D3900EE40FE /* Debug */,
@@ -526,7 +527,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		23EB9F30223F7D3900EE40FE /* Build configuration list for PBXNativeTarget "YBModelFileDemo" */ = {
+		23EB9F30223F7D3900EE40FE /* Build configuration list for PBXNativeTarget "KNModelFileDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				23EB9F31223F7D3900EE40FE /* Debug */,

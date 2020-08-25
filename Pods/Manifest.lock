@@ -7,7 +7,7 @@ DEPENDENCIES:
   - YYModel
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - MJExtension
     - YYModel
 
@@ -15,6 +15,6 @@ SPEC CHECKSUMS:
   MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: 9364ab88efc702c5c257fea881b1332094290091
+PODFILE CHECKSUM: 4fc8808ca08ad8fcf05596faf67de68664c9998f
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.9.1
