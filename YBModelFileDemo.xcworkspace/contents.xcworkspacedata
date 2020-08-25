@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:YBModelFileDemo.xcodeproj">
+      location = "group:/Users/mac/code/pod/YBModelFile-master/ModelFile.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
