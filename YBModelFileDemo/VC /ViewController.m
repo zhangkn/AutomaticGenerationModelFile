@@ -49,6 +49,11 @@
     //解析微博的json （带独有配置）
 
     YBMFConfig *config = [YBMFConfig defaultConfig];
+    
+    //        _framework = YBMFFrameworkYY;
+    config.framework = YBMFFrameworkMJ;
+    
+    
     config.fileNoteHander.ybmf_developer = @"kunnan";
     [YBModelFile createFileWithName:@"KN" data:@"jack" config:config];
     

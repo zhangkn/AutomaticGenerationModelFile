@@ -22,7 +22,11 @@
 + (void)createFileWithName:(NSString *)name data:(id)data {
     [self createFileWithName:name data:data config:nil path:nil];
 }
-
+/**
+ 
+ 遍历 json 转换的字典就能构建出( 树形结构)
+ 
+ */
 + (void)createFileWithName:(NSString *)name data:(id)data config:(YBMFConfig *)config {
     [self createFileWithName:name data:data config:config path:nil];
 }
