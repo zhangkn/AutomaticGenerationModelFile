@@ -2,9 +2,6 @@
 //  WBTrendsModel.m
 //  YBModelFileDemo
 //
-//  Created by hahaha on 2019/04/25.
-//  Copyright © 2019 indulgeIn. All rights reserved.
-//
 
 #import "WBTrendsModel.h"
 
