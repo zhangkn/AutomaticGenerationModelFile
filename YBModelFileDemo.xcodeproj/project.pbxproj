@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04AD975D24F50800008D57F3 /* jack.json in Resources */ = {isa = PBXBuildFile; fileRef = 04AD975C24F50800008D57F3 /* jack.json */; };
 		230CAA6D2240F56800633F37 /* YBMFConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 230CAA6C2240F56800633F37 /* YBMFConfig.m */; };
 		230CAA71224119A000633F37 /* YBMFFileNoteHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 230CAA70224119A000633F37 /* YBMFFileNoteHandler.m */; };
 		231F752D2241D2FD005A59CB /* YBMFFileHHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 231F752C2241D2FD005A59CB /* YBMFFileHHandler.m */; };
@@ -28,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04AD975C24F50800008D57F3 /* jack.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = jack.json; sourceTree = "<group>"; };
 		22BB225E8CD133FFE509711D /* Pods-YBModelFileDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YBModelFileDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YBModelFileDemo/Pods-YBModelFileDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		230CAA6B2240F56800633F37 /* YBMFConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YBMFConfig.h; sourceTree = "<group>"; };
 		230CAA6C2240F56800633F37 /* YBMFConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YBMFConfig.m; sourceTree = "<group>"; };
@@ -77,6 +79,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04AD975B24F507D2008D57F3 /* json */ = {
+			isa = PBXGroup;
+			children = (
+				231F7691224298A2005A59CB /* weibo_0.json */,
+				04AD975C24F50800008D57F3 /* jack.json */,
+			);
+			path = json;
+			sourceTree = "<group>";
+		};
+		04AD975E24F50821008D57F3 /* VC  */ = {
+			isa = PBXGroup;
+			children = (
+				23EB9F20223F7D3800EE40FE /* ViewController.h */,
+				23EB9F21223F7D3800EE40FE /* ViewController.m */,
+			);
+			path = "VC ";
+			sourceTree = "<group>";
+		};
 		230CAA6E2240F7C200633F37 /* Handler */ = {
 			isa = PBXGroup;
 			children = (
@@ -142,13 +162,12 @@
 		23EB9F1C223F7D3800EE40FE /* YBModelFileDemo */ = {
 			isa = PBXGroup;
 			children = (
-				231F7691224298A2005A59CB /* weibo_0.json */,
+				04AD975B24F507D2008D57F3 /* json */,
 				23EB9F33223F7DBC00EE40FE /* YBModelFile */,
 				23EB9F1D223F7D3800EE40FE /* AppDelegate.h */,
 				23EB9F1E223F7D3800EE40FE /* AppDelegate.m */,
 				23949BDB2271C23300A65340 /* WBTrendsModel3 */,
-				23EB9F20223F7D3800EE40FE /* ViewController.h */,
-				23EB9F21223F7D3800EE40FE /* ViewController.m */,
+				04AD975E24F50821008D57F3 /* VC  */,
 				231F753B22425FD3005A59CB /* PrefixHeader.pch */,
 				23EB9F23223F7D3800EE40FE /* Main.storyboard */,
 				23EB9F26223F7D3900EE40FE /* Assets.xcassets */,
@@ -253,6 +272,7 @@
 				23EB9F2A223F7D3900EE40FE /* LaunchScreen.storyboard in Resources */,
 				23EB9F27223F7D3900EE40FE /* Assets.xcassets in Resources */,
 				23EB9F25223F7D3800EE40FE /* Main.storyboard in Resources */,
+				04AD975D24F50800008D57F3 /* jack.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,5 @@
+{
+  "name":"jack",
+  "address":{"city":"北京", "location":"x,x"},
+  "orderList":[{"id":1, "goods":"手机"}, {"id":2, "goods":"电脑"}]
+}

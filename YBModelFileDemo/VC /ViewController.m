@@ -50,7 +50,7 @@
 
     YBMFConfig *config = [YBMFConfig defaultConfig];
     config.fileNoteHander.ybmf_developer = @"kunnan";
-    [YBModelFile createFileWithName:@"KN" data:@"weibo_0" config:config];
+    [YBModelFile createFileWithName:@"KN" data:@"jack" config:config];
     
 }
 
