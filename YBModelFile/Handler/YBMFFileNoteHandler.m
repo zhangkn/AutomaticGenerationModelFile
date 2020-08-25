@@ -20,8 +20,8 @@
     self = [super init];
     if (self) {
         self.ybmf_executableName = [[[NSBundle mainBundle] infoDictionary] objectForKey:(NSString *)kCFBundleExecutableKey];
-        self.ybmf_developer = @"indulgeIn";
-        self.ybmf_organization = @"indulgeIn";
+        self.ybmf_developer = @"kunnan";
+        self.ybmf_organization = @"kunnan";
     }
     return self;
 }
